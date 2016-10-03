@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>TestRelease</groupId>
   <artifactId>TestRelease</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
+  <version>0.0.1</version>
   <name>TestRelease</name>
   <description>This project was created to test mvn release prepare</description>
   <build>
@@ -52,6 +52,7 @@
   
   <scm>
     <developerConnection>scm:git:https://github.com/jaideepsihora/TestRelease.git</developerConnection>
+    <tag>TestRelease-0.0.1</tag>
   </scm>
   
  
