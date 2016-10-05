@@ -5,6 +5,17 @@
   <version>0.0.1</version>
   <name>TestRelease</name>
   <description>This project was created to test mvn release prepare</description>
+  <distributionManagement>
+	   <snapshotRepository>
+	      <id>nexus-snapshots</id>
+	      <url>http://52.77.98.29:8081/nexus/content/repositories/snapshots</url>
+	   </snapshotRepository>
+	   <repository>
+		   <id>nexus-releases</id>
+		   <url>http://52.77.98.29:8081/nexus/content/repositories/releases</url>
+	   </repository>
+	</distributionManagement>
+  
   <build>
     <sourceDirectory>src</sourceDirectory>
     <plugins>
@@ -51,7 +62,7 @@
   </build>
   
   <scm>
-    <connection>scm:git:https://github.com/jaideepsihora/TestRelease.git</connection>
+    <connection>scm:git:git@github.com:jaideepsihora/TestRelease.git</connection>
     <developerConnection>scm:git:git@github.com:jaideepsihora/TestRelease.git</developerConnection>
    <url>https://github.com/jaideepsihora/</url>
     <tag>TestRelease-0.0.1</tag>
