@@ -51,8 +51,9 @@
   </build>
   
   <scm>
-
+    <connection>scm:git:https://github.com/jaideepsihora/TestRelease.git</connection>
     <developerConnection>scm:git:git@github.com:jaideepsihora/TestRelease.git</developerConnection>
+   <url>https://github.com/jaideepsihora/</url>
     <tag>TestRelease-0.0.1</tag>
   </scm>
   
