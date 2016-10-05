@@ -6,7 +6,7 @@ public class TestReleaseMain {
 	public static void main(String[] args) {
 		System.out.println("Hello World");
 		System.out.println("We are performing release");
-		System.out.println("Empty paraphrase 2");
+		System.out.println("Empty paraphrase 3");
 		
 	}
 }
