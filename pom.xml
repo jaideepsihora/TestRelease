@@ -1,10 +1,9 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>TestRelease</groupId>
 	<artifactId>TestRelease</artifactId>
 	<!-- <version>0.0.1</version> -->
-	<version>0.0.3-SNAPSHOT</version>
+	<version>0.0.3</version>
 	<name>TestRelease</name>
 	<description>This project was created to test mvn release prepare</description>
 	<distributionManagement>
@@ -70,7 +69,7 @@
 		<connection>scm:git:git@github.com:jaideepsihora/TestRelease.git</connection>
 		<developerConnection>scm:git:git@github.com:jaideepsihora/TestRelease.git</developerConnection>
 		<url>https://github.com/jaideepsihora/</url>
-		<tag>THEAD</tag>
+		<tag>TestRelease-0.0.3</tag>
 	</scm>
 
 
