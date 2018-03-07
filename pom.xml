@@ -3,7 +3,7 @@
 	<groupId>TestRelease</groupId>
 	<artifactId>TestRelease</artifactId>
 	<!-- <version>0.0.1</version> -->
-	<version>0.0.5</version>
+	<version>0.0.6-SNAPSHOT</version>
 	<name>TestRelease</name>
 	<description>This project was created to test mvn release prepare</description>
 	<distributionManagement>
@@ -78,7 +78,7 @@
 		<connection>scm:git:git@github.com:jaideepsihora/TestRelease.git</connection>
 		<developerConnection>scm:git:git@github.com:jaideepsihora/TestRelease.git</developerConnection>
 		<url>https://github.com/jaideepsihora/</url>
-		<tag>TestRelease-0.0.5</tag>
+		<tag>THEAD</tag>
 	</scm>
 
 
