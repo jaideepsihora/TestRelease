@@ -1,26 +1,15 @@
 package com.jaideep.Release;
 
-import org.apache.log4j.Logger;
-import org.apache.log4j.MDC;
-import org.apache.log4j.NDC;
-
 public class TestReleaseMain {
 
-	final static Logger logger =  Logger.getLogger(TestReleaseMain.class);
 	
 	
 	 static void logSimpleMessage() {
 	        // This adds a simple message to the logs
-	        logger.error("This is a test");
 	    }
 
 	  private static  void logWithExtras() {
 	        // MDC extras
-	        MDC.put("extra_key", "extra_value");
-	        // NDC extras are sent under 'log4J-NDC'
-	        NDC.push("Extra_details");
-	        // This adds a message with extras to the logs
-	        logger.error("This is a test");
 	    }
 
 	    private static void logException() {
@@ -28,7 +17,6 @@ public class TestReleaseMain {
 	            unsafeMethod();
 	        } catch (Exception e) {
 	            // This adds an exception to the logs
-	            logger.error("Exception caught", e);
 	        }
 	    }
 
@@ -38,20 +26,14 @@ public class TestReleaseMain {
 	
 	public static void main(String[] args) {
 		
-		logger.error("This is a test");
-		 MDC.put("extra_key", "extra_value");
 	        // NDC extras are sent under 'log4J-NDC'
-	        NDC.push("Extra_details");
 	        // This adds a message with extras to the logs
-	        logger.error("This is a test");
 	        try {	
 	        	throw new UnsupportedOperationException("You shouldn't call that");
 	        } catch (Exception e) {
 	            // This adds an exception to the logs
-	            logger.error("Exception caught", e);
 	        }
 	        
-	        logger.info("This is also test");
 		
 		
 		
