@@ -6,6 +6,8 @@ public class TestReleaseMain {
 	
 	 static void logSimpleMessage() {
 	        // This adds a simple message to the logs
+		 // just adding comment to see jsch version getting used
+		 // during maven release pushing of tag information to git
 	    }
 
 	  private static  void logWithExtras() {
