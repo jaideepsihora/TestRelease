@@ -2,7 +2,6 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>TestRelease</groupId>
 	<artifactId>TestRelease</artifactId>
-	<!-- <version>0.0.1</version> -->
 	<version>0.0.9-SNAPSHOT</version>
 	<name>TestRelease</name>
 	<description>This project was created to test mvn release prepare</description>
@@ -78,7 +77,7 @@
 		<connection>scm:git:git@github.com:jaideepsihora/TestRelease.git</connection>
 		<developerConnection>scm:git:git@github.com:jaideepsihora/TestRelease.git</developerConnection>
 		<url>https://github.com/jaideepsihora/</url>
-		<tag>TestRelease-0.0.8</tag>
+		<tag>TestRelease-0.0.9</tag>
 	</scm>
 
 
